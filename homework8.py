@@ -21,29 +21,26 @@ class Season:
 
 
 class Winter(Season):
-    __months = ['December', 'January', 'February']
-    
     def __init__(self):
+        self.__months = ['December', 'January', 'February']
         super().__init__("Winter")
     
-    def public_method(self):
-        super().public_method(self.__months)
+    def print_months(self):
+        super().print_months(self.__months)
 
 
 class Spring(Season):
-    __months = ['March', 'April', 'May']
-    
     def __init__(self):
+        self.__months = ['March', 'April', 'May']
         super().__init__("Spring")
         
-    def public_method(self):
-        super().public_method(self.__months)
+    def print_months(self):
+        super().print_months(self.__months)
 
 
 class Summer(Season):
-    __months = ['June', 'July', 'August']
-    
     def __init__(self):
+        self.__months = ['June', 'July', 'August']
         super().__init__("Summer")
     
     def print_months(self):
@@ -54,13 +51,12 @@ class Summer(Season):
 
 
 class Autumn(Season):
-    __months = ['September', 'October', 'November']
-    
     def __init__(self):
+        self.__months = ['September', 'October', 'November']
         super().__init__("Autumn")
         
-    def public_method(self):
-        super().public_method(self.__months)
+    def print_months(self):
+        super().print_months(self.__months)
         
 
 try:
