@@ -1,5 +1,5 @@
 """
-Приложение выводит список сезонных месяцев. Выбор сезона задает пользователь.
+The application displays a list of seasonal months. The choice of season is set by the user.
 """
 
 
